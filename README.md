@@ -110,7 +110,7 @@ For the R notebook, open in RStudio and install packages as prompted.
 
 ## Skills Demonstrated
 
-`Python` `R` `RDKit` `Biopython` `PubChem API` `NCBI E-utilities` `pandas` `ggplot2` `cheminformatics` `data visualisation` `literature mining`
+`Python` `R` `RDKit` `Biopython` `PubChem API` `NCBI E-utilities` `pandas` `ggplot2` `cheminformatics` `data visualisation` `literature mining` `NetworkX` `Plotly` `network analysis` `interactive visualisation`
 
 ---
 
