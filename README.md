@@ -89,6 +89,10 @@ For the R notebook, open in RStudio and install packages as prompted.
 
 ### Research Growth Trend (PubMed)
 ![PubMed Trends](figures/pubmed_trends.png)
+
+### Biological Network Graph
+[🔗 View Interactive Network Graph](figures/network_graph.html)
+
 ---
 
 ## Skills Demonstrated
