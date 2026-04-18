@@ -93,6 +93,7 @@ endophyte-drug-discovery-analysis/
 
 ```bash
 git clone https://github.com/shruti-banerjee/endophyte-drug-discovery-analysis.git
+cd endophyte-drug-discovery-analysis
 pip install -r requirements.txt
 ```
 
