@@ -92,8 +92,7 @@ endophyte-drug-discovery-analysis/
 ## Setup
 
 ```bash
-git clone https://github.com/shrutibanerjee/endophyte-bioactives-analysis.git
-cd endophyte-bioactives-analysis
+git clone https://github.com/shruti-banerjee/endophyte-drug-discovery-analysis.git
 pip install -r requirements.txt
 ```
 
