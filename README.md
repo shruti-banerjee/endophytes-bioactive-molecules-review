@@ -47,6 +47,7 @@ endophyte-drug-discovery-analysis/
 
 ---
 
+```
 ## Modules
 
 ### Module 1 — Data Curation (`01_data_curation.ipynb`)
