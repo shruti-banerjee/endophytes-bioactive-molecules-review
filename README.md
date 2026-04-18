@@ -69,7 +69,7 @@ endophyte-drug-discovery-analysis/
 - Search terms: `endophyte + anticancer`, `endophyte + antimicrobial`, `endophyte + antifungal`
 - Plots research growth from 2000–2024
 
-### Module 4 — Bioactivity Heatmap (`04_bioactivity_heatmap.R`)
+### Module 4 — Bioactivity Heatmap (`04_bioactivity_heatmap.ipynb`)`)
 - Cross-tabulates compounds vs. bioactivity categories
 - Plots binary heatmap using **ggplot2 / pheatmap**
 
