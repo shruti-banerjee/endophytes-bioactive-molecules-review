@@ -100,8 +100,10 @@ For the R notebook, open in RStudio and install packages as prompted.
 ### Research Growth Trend (PubMed)
 ![PubMed Trends](figures/pubmed_trends.png)
 
-### Biological Network Graph
-[🔗 View Interactive Network Graph](figures/network_graph.html)
+### 🔗 Biological Network Graph
+[Click here to view the interactive network graph](https://htmlpreview.github.io/?https://github.com/shruti-banerjee/endophyte-drug-discovery-analysis/blob/main/figures/network_graph.html)
+
+*Hover over nodes to explore connections. Click legend to filter node types.*
 
 ---
 
