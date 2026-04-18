@@ -81,12 +81,14 @@ For the R notebook, open in RStudio and install packages as prompted.
 
 ## Key Findings
 
-*(To be updated as analysis is completed)*
+### Bioactivity Profile
+![Bioactivity Heatmap](figures/bioactivity_heatmap.png)
 
-- X out of 15 compounds pass Lipinski's Rule of Five
-- Publication count for endophyte research grew X% from 2000 to 2024
-- Anticancer activity is the most represented bioactivity class
+### Drug-likeness Analysis (Lipinski Ro5)
+![Lipinski Scatter](figures/lipinski_scatter.png)
 
+### Research Growth Trend (PubMed)
+![PubMed Trends](figures/pubmed_trends.png)
 ---
 
 ## Skills Demonstrated
