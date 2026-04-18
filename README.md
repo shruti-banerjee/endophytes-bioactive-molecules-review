@@ -117,11 +117,14 @@ For the R notebook, open in RStudio and install packages as prompted.
 
 *Hover over nodes to explore connections. Click legend to filter node types.*
 
+### Machine Learning — Drug-likeness Classifier
+![ML Classifier](figures/ml_classifier.png)
+
 ---
 
 ## Skills Demonstrated
 
-`Python` `R` `RDKit` `Biopython` `PubChem API` `NCBI E-utilities` `pandas` `ggplot2` `cheminformatics` `data visualisation` `literature mining` `NetworkX` `Plotly` `network analysis` `interactive visualisation`
+`Python` `R` `RDKit` `Biopython` `PubChem API` `NCBI E-utilities` `pandas` `ggplot2` `cheminformatics` `data visualisation` `literature mining` `NetworkX` `Plotly` `network analysis` `interactive visualisation` `scikit-learn` `Random Forest` `machine learning` `cross-validation` `feature importance`
 
 ---
 
