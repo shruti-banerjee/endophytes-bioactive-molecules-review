@@ -35,7 +35,8 @@ endophyte-drug-discovery-analysis/
 │   ├── 02_lipinski_filter.ipynb
 │   ├── 03_pubmed_trends.ipynb
 │   ├── 04_bioactivity_heatmap.ipynb
-│   └── 05_network_graph.ipynb
+│   ├── 05_network_graph.ipynb
+│   └── 06_ml_classifier.ipynb
 │
 └── figures/
     ├── compound_overview.png
@@ -43,11 +44,13 @@ endophyte-drug-discovery-analysis/
     ├── lipinski_heatmap.png
     ├── bioactivity_heatmap.png
     ├── pubmed_trends.png
-    └── network_graph.html
+    ├── network_graph.html
+    └── ml_classifier.png
+
+```
 
 ---
 
-```
 ## Modules
 
 ### Module 1 — Data Curation (`01_data_curation.ipynb`)
@@ -75,6 +78,14 @@ endophyte-drug-discovery-analysis/
 - Maps 16 relationship chains across 4 node types
 - Built with **NetworkX** and **Plotly** for interactive visualisation
 - Hover over nodes to explore connections
+
+### Module 6 — ML Drug-likeness Classifier (`06_ml_classifier.ipynb`)
+- Trains a **Random Forest classifier** to predict drug-likeness
+  from molecular descriptors (MW, LogP, HBD, HBA)
+- Evaluates model using confusion matrix and 5-fold cross-validation
+- Plots feature importance to identify which descriptor matters most
+- Applies trained model to predict drug-likeness of all endophyte compounds
+- Built with **scikit-learn** and **RDKit**
 
 ---
 
