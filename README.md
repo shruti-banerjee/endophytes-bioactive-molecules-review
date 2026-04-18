@@ -21,25 +21,29 @@ This project asks: *which of these compounds have the best drug-like properties,
 ## Project Structure
 
 ```
-endophyte-bioactives-analysis/
+endophyte-drug-discovery-analysis/
 │
 ├── README.md
 ├── requirements.txt
 │
 ├── data/
-│   └── compounds.csv              # curated compound dataset
+│   ├── compounds.csv
+│   └── pubmed_trends.csv
 │
 ├── notebooks/
-│   ├── 01_data_curation.ipynb     # build dataset + PubChem API fetch
-│   ├── 02_lipinski_filter.ipynb   # drug-likeness analysis with RDKit
-│   ├── 03_pubmed_trends.ipynb     # publication trend analysis via NCBI
-│   └── 04_bioactivity_heatmap.R   # bioactivity heatmap in R/ggplot2
+│   ├── 01_data_curation.ipynb
+│   ├── 02_lipinski_filter.ipynb
+│   ├── 03_pubmed_trends.ipynb
+│   ├── 04_bioactivity_heatmap.ipynb
+│   └── 05_network_graph.ipynb
 │
 └── figures/
-    ├── lipinski_radar.png
+    ├── compound_overview.png
+    ├── lipinski_scatter.png
+    ├── lipinski_heatmap.png
     ├── bioactivity_heatmap.png
-    └── pubmed_trends.png
-```
+    ├── pubmed_trends.png
+    └── network_graph.html
 
 ---
 
@@ -64,6 +68,12 @@ endophyte-bioactives-analysis/
 ### Module 4 — Bioactivity Heatmap (`04_bioactivity_heatmap.R`)
 - Cross-tabulates compounds vs. bioactivity categories
 - Plots binary heatmap using **ggplot2 / pheatmap**
+
+### Module 5 — Biological Network Graph (`05_network_graph.ipynb`)
+- Builds a directed network graph: Host Plant → Endophyte → Compound → Bioactivity
+- Maps 16 relationship chains across 4 node types
+- Built with **NetworkX** and **Plotly** for interactive visualisation
+- Hover over nodes to explore connections
 
 ---
 
